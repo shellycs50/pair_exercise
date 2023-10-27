@@ -5,3 +5,4 @@ function PlanetsPage() {
         </div>
     )
 }
+export default PlanetsPage
