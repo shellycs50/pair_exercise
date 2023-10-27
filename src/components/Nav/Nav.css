@@ -1,4 +1,4 @@
-nav.navbarmain {
+nav.navbar-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,9 +6,10 @@ nav.navbarmain {
     width: 100%;
     background-color: rgba(0,0,0,0.3);
     max-height: 300px;
+    gap:10px;
 }
 
-nav.navbarmain a {
+nav.navbar-main a {
     color: white;
     background-color: gray;
     padding: 20px;

@@ -1,11 +1,14 @@
+import "./Nav.css"
+import { NavLink } from "react-router-dom"
+
 import { Link } from "react-router-dom"
 function Nav() {
     return (
         <nav className='navbar-main'>
             <ul>
-                <Link to='/characters'>Characters</Link>
-                <Link to='/planets'>Planets</Link>
-                <Link to='/starshsips'>Starships</Link>
+                <NavLink to='/characters'>Characters</NavLink>
+                <NavLink to='/planets'>Planets</NavLink>
+                <NavLink to='/starships'>Starships</NavLink>
             </ul>
         </nav>
     )
