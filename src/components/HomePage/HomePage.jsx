@@ -1,6 +1,9 @@
 function HomePage() {
     return (
-        <h1>Homepage</h1>
+        <div> 
+            <h1>Welcome to Rob and Abby's Star Wars Fact Site</h1>
+
+        </div>
     )
 }
 

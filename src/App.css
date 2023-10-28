@@ -1,3 +1,26 @@
 .marginthing {
-  margin-top: 300px;
+  margin-top: 150px;
+}
+
+div.item-wrapper {
+  border: 2px solid black;
+  margin: 20px 0px 20px 0px;
+  padding: 5px;
+}
+div.item-wrapper ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+  font-family: 'funnyfontname';
+  src: url(./assets/fonts/PPMonumentExtended-Regular.otf);
+}
+
+
+div, body {
+text-align: center;
+font-family: 'funnyfontname';
+
 }
